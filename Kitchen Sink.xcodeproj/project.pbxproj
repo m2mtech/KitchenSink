@@ -16,6 +16,7 @@
 		5B5512B615D2B72A000B34BF /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5512B415D2B72A000B34BF /* MainStoryboard_iPhone.storyboard */; };
 		5B5512B915D2B72A000B34BF /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5512B715D2B72A000B34BF /* MainStoryboard_iPad.storyboard */; };
 		5B5512BC15D2B72A000B34BF /* KitchenSinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5512BB15D2B72A000B34BF /* KitchenSinkViewController.m */; };
+		5B5512C415D2BC00000B34BF /* AskerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5512C315D2BC00000B34BF /* AskerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		5B5512A215D2B72A000B34BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B5512A415D2B72A000B34BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B5512A615D2B72A000B34BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B5512AA15D2B72A000B34BF /* Kitchen Sink-Info.plist */ = {isa = PBXFileReference; path = "Kitchen Sink-Info.plist"; sourceTree = "<group>"; };
+		5B5512AA15D2B72A000B34BF /* Kitchen Sink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kitchen Sink-Info.plist"; sourceTree = "<group>"; };
 		5B5512AC15D2B72A000B34BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B5512AE15D2B72A000B34BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B5512B015D2B72A000B34BF /* Kitchen Sink-Prefix.pch */ = {isa = PBXFileReference; path = "Kitchen Sink-Prefix.pch"; sourceTree = "<group>"; };
-		5B5512B115D2B72A000B34BF /* KitchenSinkAppDelegate.h */ = {isa = PBXFileReference; path = KitchenSinkAppDelegate.h; sourceTree = "<group>"; };
+		5B5512B015D2B72A000B34BF /* Kitchen Sink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kitchen Sink-Prefix.pch"; sourceTree = "<group>"; };
+		5B5512B115D2B72A000B34BF /* KitchenSinkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenSinkAppDelegate.h; sourceTree = "<group>"; };
 		5B5512B215D2B72A000B34BF /* KitchenSinkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitchenSinkAppDelegate.m; sourceTree = "<group>"; };
 		5B5512B515D2B72A000B34BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5B5512B815D2B72A000B34BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5B5512BA15D2B72A000B34BF /* KitchenSinkViewController.h */ = {isa = PBXFileReference; path = KitchenSinkViewController.h; sourceTree = "<group>"; };
+		5B5512BA15D2B72A000B34BF /* KitchenSinkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenSinkViewController.h; sourceTree = "<group>"; };
 		5B5512BB15D2B72A000B34BF /* KitchenSinkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KitchenSinkViewController.m; sourceTree = "<group>"; };
+		5B5512C215D2BC00000B34BF /* AskerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AskerViewController.h; sourceTree = "<group>"; };
+		5B5512C315D2BC00000B34BF /* AskerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AskerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +82,11 @@
 		5B5512A815D2B72A000B34BF /* Kitchen Sink */ = {
 			isa = PBXGroup;
 			children = (
-				5B5512B115D2B72A000B34BF /* KitchenSinkAppDelegate.h */,
-				5B5512B215D2B72A000B34BF /* KitchenSinkAppDelegate.m */,
-				5B5512B415D2B72A000B34BF /* MainStoryboard_iPhone.storyboard */,
 				5B5512B715D2B72A000B34BF /* MainStoryboard_iPad.storyboard */,
 				5B5512BA15D2B72A000B34BF /* KitchenSinkViewController.h */,
 				5B5512BB15D2B72A000B34BF /* KitchenSinkViewController.m */,
+				5B5512C215D2BC00000B34BF /* AskerViewController.h */,
+				5B5512C315D2BC00000B34BF /* AskerViewController.m */,
 				5B5512A915D2B72A000B34BF /* Supporting Files */,
 			);
 			path = "Kitchen Sink";
@@ -93,6 +95,9 @@
 		5B5512A915D2B72A000B34BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B5512B115D2B72A000B34BF /* KitchenSinkAppDelegate.h */,
+				5B5512B215D2B72A000B34BF /* KitchenSinkAppDelegate.m */,
+				5B5512B415D2B72A000B34BF /* MainStoryboard_iPhone.storyboard */,
 				5B5512AA15D2B72A000B34BF /* Kitchen Sink-Info.plist */,
 				5B5512AB15D2B72A000B34BF /* InfoPlist.strings */,
 				5B5512AE15D2B72A000B34BF /* main.m */,
@@ -169,6 +174,7 @@
 				5B5512AF15D2B72A000B34BF /* main.m in Sources */,
 				5B5512B315D2B72A000B34BF /* KitchenSinkAppDelegate.m in Sources */,
 				5B5512BC15D2B72A000B34BF /* KitchenSinkViewController.m in Sources */,
+				5B5512C415D2BC00000B34BF /* AskerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
