@@ -49,6 +49,17 @@
                                             <segue destination="Kcw-W7-hvz" kind="modal" identifier="Create Label Flip Form" modalPresentationStyle="formSheet" modalTransitionStyle="flipHorizontal" id="Rsh-YP-p8J"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="c3W-nb-cjp"/>
+                                    <barButtonItem title="Image" id="rWI-my-mQ0">
+                                        <connections>
+                                            <action selector="addImage:" destination="2" id="fuD-Fu-T1v"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Sink Controls" id="Nx9-EV-clG">
+                                        <connections>
+                                            <action selector="controlSink:" destination="2" id="vL5-XU-zUn"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <view clipsSubviews="YES" contentMode="scaleToFill" id="VBL-db-lrp">
